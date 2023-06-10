@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/2CQR-Favicon.png" type="image/x-icon">
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+  <div class="container">
+    <form id="loginForm">
+      <img src="./images/Profile.png" alt="profile" class="img-new-profile"/>
+      
+      <h2>LOGIN</h2>
+      <div class="input-icons">
+      <div class="input-group">
+      
+        <i class="fa-solid fa-user icons-fa"></i>
+        <input type="text" id="username" name="username" placeholder="Username" required >
+        
+      </div>
+      <div class="input-group">
+       
+        <i class="fa-solid fa-lock icons-fa"></i>
+        <input type="password" id="password" name="password" placeholder="password" required>
+      </div>
+    </div>
+      <div class="input-group remember">
+        <input type="checkbox" id="rememberMe" name="rememberMe">
+        <label for="rememberMe">Remember Me</label>
+      </div>
+      <a href="http://127.0.0.1:5501/page2.html"><button type="submit"  id="nextButton">Login</button></a>
+      <p><a href="#" id="forgotLink">Forgot Username  /  Password</a></p>
+    </form>
+  </div>
+
+  </div>
+  <div class="content-contain">
+    <a href="https://2cqr.in/"><h5 class="h5">2CQR Automation Pvt .Ltd</h5></a>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
