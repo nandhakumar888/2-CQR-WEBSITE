@@ -59,103 +59,103 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
  // script.js
 
-const confirmButton = document.querySelector('.Confime');
+// const confirmButton = document.querySelector('.Confime');
 
-confirmButton.addEventListener('click', handleConfirmClick);
+// confirmButton.addEventListener('click', handleConfirmClick);
 
-function handleConfirmClick(event) {
+// function handleConfirmClick(event) {
   
-  console.log('Confirm button clicked!');
+//   console.log('Confirm button clicked!');
   
-}
+// }
 
 // script-nextpage.js
 
-document.addEventListener('DOMContentLoaded', handleNextPageLoad);
+// document.addEventListener('DOMContentLoaded', handleNextPageLoad);
 
-function handleNextPageLoad() {
+// function handleNextPageLoad() {
   
-  console.log('Next page loaded!');
+//   console.log('Next page loaded!');
   
-}
+// }
 
 
-  const issueLink = document.getElementById('issue-link');
+//   const issueLink = document.getElementById('issue-link');
 
-  issueLink.addEventListener('click', handleLinkClick);
+//   issueLink.addEventListener('click', handleLinkClick);
 
-  function handleLinkClick(event) {
-    event.preventDefault();
-
-
-    console.log('Link clicked, but no navigation occurred');
-  }
+//   function handleLinkClick(event) {
+//     event.preventDefault();
 
 
-  function handleLinkClick(event) {
-    event.preventDefault(); 
-    const linkText = event.target.textContent;
-    console.log(`Link clicked: ${linkText}`);
-}
+//     console.log('Link clicked, but no navigation occurred');
+//   }
 
 
-    // Add event listeners to the links
-    document.getElementById('issue-link').addEventListener('click', handleIssueClick);
-    document.getElementById('return-link').addEventListener('click', handleReturnClick);
+//   function handleLinkClick(event) {
+//     event.preventDefault(); 
+//     const linkText = event.target.textContent;
+//     console.log(`Link clicked: ${linkText}`);
+// }
 
-    function handleIssueClick(event) {
-        event.preventDefault();
-        console.log('Issue link clicked!');
-    }
 
-    function handleReturnClick(event) {
-        event.preventDefault(); 
-        console.log('Return link clicked!');
-    }
+//     // Add event listeners to the links
+//     document.getElementById('issue-link').addEventListener('click', handleIssueClick);
+//     document.getElementById('return-link').addEventListener('click', handleReturnClick);
 
-    // Add event listeners to the links
-    document.getElementById('issue-link').addEventListener('click', handleIssueClick);
-    document.getElementById('return-link').addEventListener('click', handleReturnClick);
+//     function handleIssueClick(event) {
+//         event.preventDefault();
+//         console.log('Issue link clicked!');
+//     }
 
-    function handleIssueClick(event) {
-        event.preventDefault(); 
-        console.log('Issue link clicked!');
-    }
+//     function handleReturnClick(event) {
+//         event.preventDefault(); 
+//         console.log('Return link clicked!');
+//     }
 
-    function handleReturnClick(event) {
-        event.preventDefault();
-        console.log('Return link clicked!');
-    }
+//     // Add event listeners to the links
+//     document.getElementById('issue-link').addEventListener('click', handleIssueClick);
+//     document.getElementById('return-link').addEventListener('click', handleReturnClick);
 
-    function handleLinkClick(event) {
-      event.preventDefault(); // Prevent the default link behavior
+//     function handleIssueClick(event) {
+//         event.preventDefault(); 
+//         console.log('Issue link clicked!');
+//     }
+
+//     function handleReturnClick(event) {
+//         event.preventDefault();
+//         console.log('Return link clicked!');
+//     }
+
+//     function handleLinkClick(event) {
+//       event.preventDefault(); // Prevent the default link behavior
     
-      const linkText = event.target.textContent;
-      console.log(`Link clicked: ${linkText}`);
+//       const linkText = event.target.textContent;
+//       console.log(`Link clicked: ${linkText}`);
     
-      // Check if it's a back or forward action
-      if (linkText === 'Back') {
-        window.history.back(); 
-      } else if (linkText === 'Forward') {
-        window.history.forward(); 
-      } else {
+//       // Check if it's a back or forward action
+//       if (linkText === 'Back') {
+//         window.history.back(); 
+//       } else if (linkText === 'Forward') {
+//         window.history.forward(); 
+//       } else {
        
-      }
-    }
+//       }
+//     }
 
-if ("Notification" in window) {
-  Notification.requestPermission()
-    .then((permission) => {
-      if (permission === "granted") {
-        // Create a new notification
-        const notification = new Notification("Access Restricted", {
-          body: "Access is restricted to admin",
-        });
-      }
-    })
-    .catch((error) => {
-      console.error("Error requesting notification permission:", error);
-    });
-}
+// if ("Notification" in window) {
+//   Notification.requestPermission()
+//     .then((permission) => {
+//       if (permission === "granted") {
+//         // Create a new notification
+//         const notification = new Notification("Access Restricted", {
+//           body: "Access is restricted to admin",
+//         });
+//       }
+//     })
+//     .catch((error) => {
+//       console.error("Error requesting notification permission:", error);
+//     });
+// }
 
   
