@@ -41,21 +41,21 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     window.location.href = 'page2.html';
   });
   
-  document.getElementById('nextButton').addEventListener('click', function() {
-    window.location.href = 'page3.html';
-  });
+//   document.getElementById('nextButton').addEventListener('click', function() {
+//     window.location.href = 'page3.html';
+//   });
 
-  document.getElementById('nextButton').addEventListener('click', function() {
-    window.location.href = 'page4.html';
-  });
+//   document.getElementById('nextButton').addEventListener('click', function() {
+//     window.location.href = 'page4.html';
+//   });
 
-  document.getElementById('page-3').addEventListener('click', function() {
-    window.location.href = 'page3.html';
-  });
+//   document.getElementById('page-3').addEventListener('click', function() {
+//     window.location.href = 'page3.html';
+//   });
 
- document.getElementById('inputPassword').addEventListener('click',function(e){
-  alert('thank you!')
- })
+//  document.getElementById('inputPassword').addEventListener('click',function(e){
+//   alert('thank you!')
+//  })
 
  // script.js
 
